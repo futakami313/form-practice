@@ -16,19 +16,19 @@
     <h1 class="form-title">フォーム作成</h1>
       <div class="form-wrap">
       <form action="#">
-      <h2 class="acount-title">アカウント作成</h2>
+      <h2 class="account-title">アカウント作成</h2>
         <div class="personal-content">
           <h3 class="content-title">個人情報</h3>
           <div class="section">
-            <label class="label-text" for="family-name">名字<span class="required">※</span></label>
+            <label class="label-text" for="family-name">名字 <span class="required">※</span></label>
             <input class="input-area" id="family-name" type="text" name="name" autocomplete="family-name" required>
           </div>
           <div class="section">
-            <label class="label-text" for="first-name">名前<span class="required">※</span></label>
+            <label class="label-text" for="first-name">名前 <span class="required">※</span></label>
             <input class="input-area" id="first-name" type="text" name="name" autocomplete="first-name" required>
           </div>
           <div class="section">
-            <label class="label-text">生年月日<span class="required">※</span></label>
+            <label class="label-text">生年月日 <span class="required">※</span></label>
             <div class="select-area flex">
             <div class="select-unit">
               <select class="input-area" name="year">
@@ -80,9 +80,7 @@
             </div>
             </div>
             <div class="section">
-              <p class="label-text">性別
-                <span class="required">※</span>
-              </p>
+              <p class="label-text">性別 <span class="required">※</span></p>
               <div class="gender-container">
                 <label class="gender">
                   <input class="gender-content" type="radio" name="gender" value="man">
@@ -117,26 +115,30 @@
         <div class="account-content">
           <h3 class="content-title">アカウント情報</h3>
           <div class="section">
-            <label class="label-text" for="acount-name">アカウント名<span class="required">※</span></label>
+            <label class="label-text" for="account-name">アカウント名 <span class="required">※</span></label>
             <input class="input-area"  id="account-name" type="text" required>
           </div>
           <div class="section">
-            <label class="label-text" for="email">メールアドレス<span class="required">※</span></label>
+            <label class="label-text" for="email">メールアドレス <span class="required">※</span></label>
             <input class="input-area"  id="email" type="text" required>
           </div>
           <div class="section">
-            <label class="label-text" for="password">確認用パスワード<span class="required">※</span></label>
+            <label class="label-text" for="password">パスワード <span class="required">※</span></label>
             <input class="input-area" id="password" type="password" required>
+          </div>
+          <div class="section">
+            <label class="label-text" for="duplication-password">確認用パスワード <span class="required">※</span></label>
+            <input class="input-area" id="duplication-password" type="password" required>
             </div>
           </div>
         <div class="contact-content">
           <h3 class="content-title">連絡先</h3>
           <div class="section">
-            <label class="label-text" for="address">住所<span class="required">※</span></label>
+            <label class="label-text" for="address">住所 <span class="required">※</span></label>
             <input class="input-area" id="address" type="text" required>
           </div>
           <div class="section">
-            <label class="label-text" for="tel">電話番号<span class="required">※</span></label>
+            <label class="label-text" for="tel">電話番号 <span class="required">※</span></label>
             <input class="input-area" id="tel" type="tel" autocomplete="tel" required>
             </div>
         </div>
@@ -144,11 +146,11 @@
           <h3 class="content-title">購読情報</h3>
           <div class="section subscription-unit">
             <input class="subscription-checkbox" type="checkbox" id="email-magazine" name="subscription" value="email-magazine">
-            <label class="label-text subscription-label" for="email-magazine">●メールマガジン</label>
+            <label class="label-text subscription-label" for="email-magazine">メールマガジン</label>
           </div>
           <div class="section subscription-unit">
             <input class="subscription-checkbox" type="checkbox" id="coupon" name="subscription" value="coupon">
-            <label class="label-text subscription-label" for="coupon">●クーポン</label>
+            <label class="label-text subscription-label" for="coupon">クーポン</label>
           </div>
         </div>
         <div class="submit-content">

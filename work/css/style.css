@@ -32,7 +32,7 @@ input, select, button {
   text-align: center;
 }
 
-.acount-title {
+.account-title {
   font-size: 24px;
   text-align: center;
 }
@@ -42,7 +42,7 @@ input, select, button {
   color: #000000;
 }
 
-.label__text {
+.label-text {
   font-size: 14px;
   color: #464646;
 }
@@ -139,7 +139,7 @@ span:after {
   transform: translateY(-50%);
 }
 
-.select-area, .gender {
+.select-area, .gender-container {
   margin-top: 6px;
 }
 
@@ -201,7 +201,7 @@ span:after {
 
 .other-text {
   margin-top: 25px;
-  font-size: 10px
+  font-size: 10px;
 }
 
 .link-color {
